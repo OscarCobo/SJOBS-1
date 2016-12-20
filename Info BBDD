@@ -1,4 +1,0 @@
-Aqui dejo la base de datos que he hecho, faltan las foreign keys de la tabla de offers porque no he sabido hacerlas o
-las hacia mal, en teoria tendría que tener relacionada el business_name y el business_image no?
-Hay usuarios de prueba con nuestros nombres, las contraseñas son las mismas que el usuario.
-Tambien hay una empresa de prueba, pero no hay ninguna oferta añadida.
