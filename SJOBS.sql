@@ -1,8 +1,7 @@
 
-
 CREATE TABLE business (
   
-  business_id mediumint(8) UNSIGNED NOT NULL,
+  business_id mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT,
 
   business_name varchar(50) NOT NULL,
 
@@ -12,7 +11,7 @@ CREATE TABLE business (
 
   business_image varchar(200) NOT NULL,
 
-   PRIMARY KEY (business_id);
+   PRIMARY KEY (business_id)
 )
 
 
@@ -26,7 +25,7 @@ VALUES
 
 CREATE TABLE offers (
   
-  offer_id mediumint(8) UNSIGNED NOT NULL,
+  offer_id mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT,
   
   offer_title varchar(50) NOT NULL,
  
@@ -37,14 +36,14 @@ CREATE TABLE offers (
   end_date datetime DEFAULT NULL,
 
   business_id mediumint(8) UNSIGNED NOT NULL,
-  PRIMARY KEY (offer_id)
+  PRIMARY KEY (offer_id),
   FOREIGN KEY (business_id) REFERENCES business (business_id) on delete no action on update no action
 
 )
 
 CREATE TABLE users (
   
-  user_id mediumint(8) UNSIGNED NOT NULL,
+  user_id mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT,
 
   user_name varchar(50) NOT NULL,
 
@@ -52,11 +51,10 @@ CREATE TABLE users (
 
   user_email varchar(50) NOT NULL,
 
-  password char(40) NOT NULL
-, 
+  password char(40) NOT NULL, 
+  
   PRIMARY KEY (user_id)
 )
-
 
 
 INSERT INTO users (user_name, surname, user_email, password) 
@@ -69,4 +67,3 @@ VALUES
 ('fran', 'sarciat', 'fransarciat@gmail.com', SHA1('fran')),
 
 ('adrian', 'valenzuela', 'avgvalenzuela@gmail.com', SHA1('adrian'));
-
