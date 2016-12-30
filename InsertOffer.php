@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
      }
      
      if (empty($errors)){
-          $query = "INSERT INTO offers (offer_title, offer_description, publication_date, end_date, business_id) VALUES ('$offertitle', '$description','CAST(SYSDATETIME() AS DATETIME)',NULL,'$business')";
+          $query = "INSERT INTO offers (offer_title, offer_description, publication_date, end_date, business_id) VALUES ('$offertitle', '$description',NOW(),NULL,'$business')";
           $result = @mysqli_query ($dbc, $query);
 		if ($result) {
 			echo '<h1>The offer was added succesfully!</h1>';	
