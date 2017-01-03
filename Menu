@@ -2,14 +2,14 @@
             <div class="w-container">
                 <!--Logo-->
                 <a class="logo w-nav-brand" href="#">
-                <img src="IMAGES/Logo.png" style="width:120px;height:100px;">
+                <img src="../IMAGES/Logo.png" style="width:120px;height:100px;">
                 </a>
                 <!--Menu-->
                 <nav class="nav-menu w-nav-menu" role="navigation">
-                <a class="w-nav-link w--current nav-link" href="./Home.html">HOME</a>
+                <a class="nav-link w-nav-link" href="../Home.php">HOME</a>
                 <a class="nav-link w-nav-link" href="/">OFFERS</a>
                 <a class="nav-link w-nav-link" href="/">BUSSINESS</a>
-                <a class="nav-link w-nav-link" href="HTML/Contact.html">CONTACT</a>
+                <a class="nav-link w-nav-link" href="../PHP/Contact.php">CONTACT</a>
                 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <a class="nav-link w-nav-link" href="/">Sign In</a>
                 <a class="nav-link w-nav-link">|</a>
