@@ -3,35 +3,40 @@
 
 <head>
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="style1.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style1.css">
+    <!--Cargar fuentes de google para un tipo de letra diferente -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Changa One:400,400italic|Droid Sans:400,700|Droid Serif:400,700|Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Great Vibes:400|Inconsolata:400,700,400italic,700italic|Lato:100,200,300,400,700,900,100italic,200italic,300italic,400italic,700italic,900italic|Merriweather:300,400,700,900|Montserrat:400,700|Open Sans:300,400,600,700,800,300italic,400italic,600italic,700italic,800italic|Oswald:300,400,700|PT Sans:400,700,400italic,700italic|PT Serif:400,700,400italic,700italic|Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Varela:400|Varela Round:400|Vollkorn:400,700,400italic,700italic&amp;subset=">
+    <script type="text/javascript">WebFont.load({custom: { families: [] } });</script>
 </head>
 
 <body>
     <div class="hero">
         <div class="nav w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
             <div class="w-container">
-
+                <!--Logo-->
                 <a class="logo w-nav-brand" href="#">
-                <img src="Logo.png" style="width:120px;height:100px;">
+                <img src="IMAGES/Logo.png" style="width:120px;height:100px;">
                 </a>
-
+                <!--Menu-->
                 <nav class="nav-menu w-nav-menu" role="navigation">
                 <a class="w-nav-link w--current nav-link" href="./Home.html">HOME</a>
                 <a class="nav-link w-nav-link" href="/">OFFERS</a>
                 <a class="nav-link w-nav-link" href="/">BUSSINESS</a>
-                <a class="nav-link w-nav-link" href="/">CONTACT</a>
+                <a class="nav-link w-nav-link" href="HTML/Contact.html">CONTACT</a>
                 <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <a class="nav-link w-nav-link" href="/">Sign In</a>
                 <a class="nav-link w-nav-link">|</a>
                 <a class="nav-link w-nav-link" href="/">Log In</a>
                 </nav>
-
             </div>
         </div>
-
+        <!--Title-->
         <div class="heading-wrapper w-container">
             <h1 class="main-heading">Find your perfect Job</h1>
+            <!--Button-->
             <a class="button w-button" href="/contact">OFFERS</a>
         </div>
     </div>
@@ -40,34 +45,34 @@
         <div class="w-container">
             <div class="w-dyn-list">
                 <div class="w-dyn-items w-row">
-
+                    <!--Images selection-->
                     <div class="w-col w-col-4 w-dyn-item">
                         <a class="w-inline-block">
-                        <img class="project-image" src="Images/Offers.jpg" width="300"  height="200">
+                        <img class="project-image" src="IMAGES/Offers.jpg" width="300"  height="200">
                         </a>
                     </div>
 
                     <div class="w-col w-col-4 w-dyn-item">
                         <a class="w-inline-block">
-                        <img class="project-image" src="Images/Business.jpg" width="300"  height="200"">
+                        <img class="project-image" src="IMAGES/Business.jpg" width="300"  height="200"">
                         </a>
                     </div>
 
                     <div class="w-col w-col-4 w-dyn-item">
                         <a class="w-inline-block">
-                        <img class="project-image" src="Images/contact.jpg" width="300"  height="200">
+                        <img class="project-image" src="IMAGES/contact.jpg" width="300"  height="200">
                         </a>
                     </div>
 
                     <div class="w-col w-col-4 w-dyn-item">
                         <a class="w-inline-block">
-                        <img class="project-image" src="Images/SignIn.jpg" width="300"  height="200">
+                        <img class="project-image" src="IMAGES/SignIn.jpg" width="300"  height="200">
                         </a>
                     </div>
 
                     <div class="w-col w-col-4 w-dyn-item">
                         <a class="w-inline-block" href="http://www.santjosepobrer.es/sjo/indexh.htm">
-                        <img class="project-image" src="Images/SJO.jpg" width="300"  height="200">
+                        <img class="project-image" src="IMAGES/SJO.jpg" width="300"  height="200">
                         </a>
                     </div>
 
