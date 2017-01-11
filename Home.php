@@ -28,7 +28,7 @@ include ('../REUSE CODE/Head.html');
 
                     <div class="w-col w-col-4 w-dyn-item">
                         <a class="w-inline-block" href="/">
-                        <img class="project-image" src="../IMAGES/Business.jpg" width="300"  height="200"">
+                        <img class="project-image" src="../IMAGES/Business.jpg" width="300"  height="200">
                         </a>
                     </div>
 
